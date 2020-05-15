@@ -1,0 +1,207 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+    box-sizing: border-box;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"
+}
+#window1 {
+  background-image: url(./abandoned-forest-industry-nature-34950.jpg);
+  background-size: 100em;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  padding: 50px;
+  display: flex;
+}
+.box{
+    width: 400px;
+    height: 300px;
+    background-color: black;
+    margin-top: 150px;
+}
+#box1{
+    opacity: .8;
+}
+#box2{
+    opacity: .6;
+}
+#window2 {
+  padding-top: 100px;
+  background-image: url(./abandoned-forest-industry-nature-34950.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+#window3 {
+  /* background-color: #a7d7ac; */
+  color: white;
+  padding: 25px;
+  background-image: url(./abandoned-forest-industry-nature-34950.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  height: 100vh;
+}
+header {
+  z-index: 100;
+  position: fixed;
+  width: 98%;
+  height: 70px;
+  background-color: black;
+  opacity: .7;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transition: 0.5s ease-out;
+}
+header:hover {
+  /* border-bottom: 1px solid white; */
+  /* box-shadow: 2px 2px 7px 1px rgb(209, 209, 209); */
+  box-shadow: 1px -12px 53px 16px #000000;
+}
+header .container nav {
+  word-spacing: 50px;
+  margin-top: 30px;
+  margin-right: 200px;
+}
+header .container nav a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #88d498;
+  transition: 0.5s ease-in-out;
+}
+header .container nav a:hover {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+header .container h1 {
+  margin-left: 30px;
+  color: white;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+.box{
+    border-radius: 20px;
+    padding: 35px; 
+    width: 500px;
+}
+#box1:hover {
+    /* border-bottom: 1px solid white; */
+    /* box-shadow: 2px 2px 7px 1px rgb(209, 209, 209); */
+    transition: 0.5s ease-in-out;
+    box-shadow: 1px -12px 53px 16px #000000;
+  }
+  #box2{
+    margin-left: 50px;
+    text-align: center;
+  }
+#box2:hover {
+    /* border-bottom: 1px solid white; */
+    /* box-shadow: 2px 2px 7px 1px rgb(209, 209, 209); */
+    transition: 0.5s ease-in-out;
+    box-shadow: 1px -12px 53px 16px #000000;
+  }
+#window1 #box1 h1{
+    color: white;
+}
+
+#window1 #box2 h1{
+    margin: 0;
+    color: white;
+
+}
+#box2 input[type=text],#box2 input[type=password]{
+    font-size: 15px;
+    font-weight: bolder;
+    color: #88d498;
+    text-align: center;
+    background: transparent;
+    outline: none;
+    width: 350px;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 20px;
+    height: 3px;
+    transition: 0.5s ease-in-out;
+}
+#box2 input[type=text]:focus,#box2 input[type=password]:focus {
+    border: none;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+    background: white;
+    outline: none;
+    width: 350px;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 20px;
+    height: 3px;
+}
+.btn{
+    text-align: center;
+    font-size: larger;
+    outline: none;
+    font-weight: bolder;
+    margin-top:10px ;
+    height: 30px;
+    border-radius: 20px; 
+    transition: 0.5s ease-in-out;
+    background-color: #000000;
+    color: white;
+}
+.btn:hover{
+    outline: none;
+    margin-top:5px ;
+    height: 40px;
+    border-radius: 20px; 
+    background-color: white;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+.sub{
+    width: 150px;
+    font-weight: bolder;
+    outline: none;
+    background-color: white;
+    color: black;
+    height: 25px;
+    border-radius: 15px;
+}
+.sub:hover{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 25px;
+    border-radius: 15px;
+}
+.fa {
+    padding: 20px;
+    font-size: 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-github {
+    background: black;
+    color: white;
+  }
